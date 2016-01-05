@@ -115,7 +115,7 @@ DELETE FROM Cliente WHERE cidade = "Rio de Janeiro";
 DELETE FROM Carro WHERE ano = 2005;
 
 -- p) Excluir, na tabela Carro, o modelo Gol e de cor prata.
-DELETE FROM Carro WHERE modelo = "Gol" AND cor = "Prata;
+DELETE FROM Carro WHERE modelo = "Gol" AND cor = "Prata";
 
 -- q) Excluir, na tabela Cliente, os clientes que possuam telefone 019 e morem em Campinas.
 DELETE FROM Cliente WHERE telefone = "019" AND cidade = "Campinas";
